@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dance {
+    width: 600px;
+    height: auto;
+    padding: 20px;
+}
+
+.dance p {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    background-image: url('dance.png');
+    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-position: center;
+    -webkit-background-clip: text;
+    color: transparent;
+}
